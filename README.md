@@ -31,7 +31,7 @@
         <div class="footer">
             <img src="./img/logo.png" alt="logo" width="auto"  style="width:20vw">
             <div>
-                <address>Copyright © 2022 Tackless.co.,Ltd.All rights reserved.</address>
+                <address>Copyright © 2022 Tackless.co.,Ltd.All rights reserved.</address>  
                 <address>Contact Tackless for more information KimchiMaster: msjdoc0645@naver.com </address>
             <address>Producers : 문동환, 원강희 </address>
         </div>
