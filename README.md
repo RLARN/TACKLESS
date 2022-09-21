@@ -18,7 +18,7 @@
 <br>
     아래는 참조 코드
     ```
-        body {margin: 0;padding: 0; width: 100vw;overflow-x: hidden;}
+    body {margin: 0;padding: 0; width: 100vw;overflow-x: hidden;}
     ```
 ***
 
