@@ -1,0 +1,90 @@
+/* TACKLESS Main CSS */
+
+/*---header--- */
+header {position: fixed;top: 0;left: 0;right: 0;z-index: 100; }
+nav ul {width: 100%;list-style: none;margin: 0;padding: 0;background-color: white;}
+nav ul li {display: inline-block;}
+.dropdown {width: 100%;height: 5vw;text-align: center;position:relative;}
+.dropdown-menu>img {width: 7vw;position: relative;transition: all .3s; margin-top: 1vw;}
+.dropdown-menu a {/*padding: 40px 40px;*/ display: block;background-color: white;}
+.dropdown-content {width: 100%;height: 6vw;position: absolute;opacity: 0;visibility: hidden; background-color: white; transition: all .3s;}
+.dropdown-content a {color: #000;font-size: 1.3vw;padding: 1.5vw 1vw;text-decoration: none;display: inline-block;font-weight: 400;}
+.dropdown:hover .dropdown-content {display: block;opacity: 1;visibility: visible;}
+.dropdown:hover .dropdown-menu>img {width: 14vw; transition: all .3s;}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+/* ---------------------------header end----------------------------------- */
+/*---body start---*/
+
+/*---Main---*/
+body {margin: 0;padding: 0; width: 100vw;overflow-x: hidden;font-family:'Noto Sans KR',sans-serif;}
+p {font-family: 'Noto Sans KR', sans-serif;}
+.firstcontent {font-family: 'Noto Sans KR', sans-serif;}
+.content main {display: flex; justify-content: center;transition: all .3s;}
+
+/*---Main-BNR---*/
+.main-bnr {margin-top: 5vw ;width: 100%;height: 50vw;background-color: gray;position: relative;}
+.main-bnr-card>img{width:100%;height: 50vw;object-fit:cover}/*원래는 height: 30vw*/
+.main-bnr-card-txt {font-size: 5vw; color: white;opacity: 0.8; position: absolute; top: 4%; left: 29%;}
+.main-bnr-card-txt-p {font-size: 5vw;}
+.main-bnr-card-txt-kimchi {font-size: 1vw; position: absolute; top: 62%; left: 31%;}
+.main-bnr-card-txt2 p{text-align: center;font-size: 2vw; margin: 0.8vw;}
+.main-bnr-card2 {justify-content: center;width: 100%;height: 55vw;background-color: gray;margin-bottom: 5vw; margin-top: 2vw;position: relative;}
+.main-bnr-card2>img{width:100%;height: 55vw;object-fit:cover}
+.main-bnr-card2-txt {font-size: 5vw; color: white;opacity: 0.6; position: absolute; top: 59vw; left: 25vw;}
+
+/*---Event-BNR---*/
+.event-bnr { display: flex;justify-content: center;width: 100%; height: 20vw;}
+.enent-bnr-tumb {width: 80vw;height: 20vw;background-color: gray;}
+.enent-bnr-tumb>img{width: 80vw;height: 20vw;object-fit:cover}
+
+/*----------Event-Area----------*/
+.event-area {width: 100%;display: flex;justify-content: center;}
+.event-area-card { justify-content: center;width: 75vw;height: auto; border: 1px transparent;margin-bottom: 3vw; margin-top: 5vw;}
+.event-area-txt {font-size: 3vw;}
+.event-area-txt p{ width: 100%;margin-left: 1vw;margin-bottom: 0vw;display: flex;}
+.event-area-item {display: flex;padding: 1vw;}
+.event-area-item-tumb1 {width: 51vw;height: 35vw;background-color: gray;}
+.event-area-item-tumb1>img{width: 51vw;height: 35vw;object-fit:cover}
+.event-area-item-right-container {margin-left: 1vw;}
+.event-area-item-tumb2 {width: 20vw;height: 20vw;background-color: gray;}
+.event-area-item-tumb2>img{width: 20vw;height: 20vw;object-fit: cover;}
+.event-area-item-logo>img {width: 12vw;display: flex;justify-content: space-around;margin: 5vw 4vw 5vw 4vw }
+/*---Card-Container---*/
+.card-container {width: 100%;height: 30vw; display: flex;justify-items: center;justify-content: space-evenly; margin-bottom: 5vw;}
+.card-container-tumb {width: 28vw; height: 28vw;background-color: darkgray;}
+.card-container-tumb-1>img{width: 28vw;height: 28vw;object-fit: cover;}
+.card-container-tumb-2>img{width: 28vw;height: 28vw;object-fit: cover;}
+.card-container-tumb-3>img{width: 28vw;height: 28vw;object-fit: cover;}
+/*------------end--------------*/
+
+/*---------Event-Area2---------*/
+.event-area2 {width: 100%;display: flex;justify-content: center;}
+.event-area2-card { justify-content: center;width: 100%;height: auto; border: 1px transparent;margin-bottom: 3vw; margin-top: 5vw;}
+.event-area2-txt {font-size: 3vw;}
+.event-area2-txt p{ width: 100%;margin-bottom: 2vw;display: flex; justify-content: center;}
+.event-area2-item {display: flex;justify-content: space-between}
+.event-area2-item-tumb1 {width: 12vw;height: 40vw;background-color: gray;}
+.event-area2-item-tumb1>img{width: 12vw;height: 40vw;object-fit:cover}
+.event-area2-item-tumb2 {width: 70vw;height: 40vw;background-color: gray;}
+.event-area2-item-tumb2>img{width: 70vw;height: 40vw;object-fit: cover;}
+.event-area2-item-tumb3 {width: 12vw;height: 40vw;background-color: gray;}
+.event-area2-item-tumb3>img{width: 12vw;height: 40vw;object-fit: cover;}
+/*---Card-Container2---*/
+.card-container2 {width: 100%;height: 30vw; display: flex;justify-items: center;justify-content: space-evenly; margin-bottom: 15vw;}
+.card-container2-tumb {width: 28vw; height: 28vw;background-color: darkgray;}
+.card-container2-tumb-1>img{width: 28vw;height: 28vw;object-fit: cover;}
+.card-container2-tumb-2>img{width: 28vw;height: 28vw;object-fit: cover;}
+.card-container2-tumb-3>img{width: 28vw;height: 28vw;object-fit: cover;}
+/*------------end--------------*/
+
+/*---Main-BNR3---*/
+.main-bnr3-card {margin-top: 5vw;display: flex;justify-content: center;width: 100%;height: 30vw;background-color: gray;}
+.main-bnr3-card>img{width: 100%;height: 30vw;object-fit: cover;}
+.main-bnr-card3-txt {font-size: 5vw; color: white;opacity: 0.9; position: absolute; top: 6vw; left: 31vw;}
+
+/*---footer---*/
+.footer{width: 100%; height: auto; background-color: white; padding:  3vw 0 3vw 0; border-top: 6px solid black; margin-top: 10vw;}
+.footer>img {margin-left: 3vw; width: 18vw;position: relative; padding: 1vw;}
+.footer p{margin:0.5vw 0 0.7vw 3vw; font-style: italic;}
+.footer a{margin:0.5vw 0 0.7vw 3vw; color: black; text-decoration: none; font-family:'Noto Sans KR',sans-serif; font-style: italic;}
+.footer address{margin:0.5vw 0 0.7vw 3vw;}
