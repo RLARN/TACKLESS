@@ -133,6 +133,7 @@ hr {
 }
 
 .sale-card-text {
+    font-family: 'Noto Sans KR', sans-serif; 
     padding-left: 1vw;
     margin: 0 auto;
 }
