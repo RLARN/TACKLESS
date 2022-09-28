@@ -94,19 +94,20 @@ hr {
 .sale-card-container-tumb{
     margin:0 auto;
     margin-bottom: 0.5vw;
-    width: 33vw;
+    width: 34vw;
     height: 20vw;
     background-color: gray;
 }
 
 .sale-card-container-box2 {
-    font-size: 25px;
+    font-size: 1.5vw;
     border: 1px solid #dddddd;
-    width: 34vw;
+    width: 35vw;
 }
 
 .sale-card-container-box2>img {
     padding: 0.5vw 0.8vw 0.5vw 0;
     float: right;
     right: 100%;
+    width: 4.5vw;
 }
