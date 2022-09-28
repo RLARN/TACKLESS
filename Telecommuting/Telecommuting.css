@@ -1,0 +1,40 @@
+/* TACKLESS Main CSS */
+
+/*---header--- */
+header {position: fixed;top: 0;left: 0;right: 0;z-index: 100; }
+nav ul {width: 100%;list-style: none;margin: 0;padding: 0;background-color: white;}
+nav ul li {display: inline-block;}
+.dropdown {width: 100%;height: 5vw;text-align: center;position:relative;}
+.dropdown-menu>img {width: 7vw;position: relative;transition: all .3s; margin-top: 1vw;}
+.dropdown-menu a {/*padding: 40px 40px;*/ display: block;background-color: white;}
+.dropdown-content {width: 100%;height: 6vw;position: absolute;opacity: 0;visibility: hidden; background-color: white; transition: all .3s;}
+.dropdown-content a {color: #000;font-size: 1.3vw;padding: 1.5vw 1vw;text-decoration: none;display: inline-block;font-weight: 400;}
+.dropdown:hover .dropdown-content {display: block;opacity: 1;visibility: visible;}
+.dropdown:hover .dropdown-menu>img {width: 14vw; transition: all .3s;}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+/* ---------------------------header end----------------------------------- */
+/*---body start---*/
+
+/*---Main---*/
+body {margin: 0;padding: 0; width: 100vw;overflow-x: hidden;font-family:'Noto Sans KR',sans-serif;}
+p {font-family: 'Noto Sans KR', sans-serif;}
+.firstcontent {font-family: 'Noto Sans KR', sans-serif;}
+.content main {display: flex; justify-content: center;transition: all .3s;}
+
+/*---Main-BNR---*/
+.main-bnr {width: 85%;height: 20vw;background-color: gray;position: relative;margin-left: 7.5vw;margin-top: 5vw ;}
+.main-bnr-card>img{width:85%;height: 20vw;margin-left: 7.5vw; object-fit:cover}/**/
+.main-bnr-card-txt {font-size: 5vw; color: white;opacity: 0.8; position: absolute; top: -1%; left: 3%;}
+.main-bnr-card-txt-p {font-size: 5vw;}
+.main-bnr-card-txt-kimchi {font-size: 1vw; position: absolute; top: 62%; left: 2%;}
+.main-bnr-card-txt2 p{text-align: center;font-size: 2vw; margin: 0.8vw;}
+.main-bnr-card2 {justify-content: center;width: 100%;height: 55vw;background-color: gray;margin-bottom: 5vw; margin-top: 2vw;position: relative;}
+.main-bnr-card2>img{width:100%;height: 55vw;object-fit:cover}
+.main-bnr-card2-txt {font-size: 5vw; color: white;opacity: 0.6; position: absolute; top: 59vw; left: 25vw;}
+
+/*---footer---*/
+.footer{width: 100%; height: auto; background-color: white; padding:  3vw 0 3vw 0; border-top: 6px solid black; margin-top: 10vw;}
+.footer>img {margin-left: 3vw; width: 18vw;position: relative; padding: 1vw;}
+.footer p{margin:0.5vw 0 0.7vw 3vw; font-style: italic;}
+.footer a{margin:0.5vw 0 0.7vw 3vw; color: black; text-decoration: none; font-family:'Noto Sans KR',sans-serif; font-style: italic;}
+.footer address{margin:0.5vw 0 0.7vw 3vw;}
