@@ -88,3 +88,75 @@ p {font-family: 'Noto Sans KR', sans-serif;}
 .footer p{margin:0.5vw 0 0.7vw 3vw; font-style: italic;}
 .footer a{margin:0.5vw 0 0.7vw 3vw; color: black; text-decoration: none; font-family:'Noto Sans KR',sans-serif; font-style: italic;}
 .footer address{margin:0.5vw 0 0.7vw 3vw;}
+
+/* sale */
+/* sale-container */
+
+/* .sale-line {padding-bottom: 1vw}
+.sale-line-text a {color: #000; text-decoration: none;}
+.sale-line-text {font-family: 'Noto Sans KR', sans-serif;  font-size: 2vw; font-weight: lighter; padding-top: 2vw; padding-left: 11%; word-spacing: 20px;}
+
+hr {width: 96%;}
+
+.sale-card-text { padding-left: 1vw;}
+.sale-card-container {width: 100%;height: 30vw; display: flex;justify-items: center;justify-content: space-evenly; margin-bottom: 5vw;}
+.sale-card-container-tumb{ margin:0 auto; margin-bottom: 0.5vw; width: 33vw; height: 20vw; background-color: gray;}
+.sale-card-container-box2 { font-size: 25px; border: 1px solid #dddddd; width: 34vw;}
+.sale-card-container-box2>img { padding: 0.5vw 0.8vw 0.5vw 0; float: right; right: 100%;} */
+
+.sale-line {
+    padding-bottom: 1vw;
+}
+
+.sale-line-text a {
+    color: #000;
+    text-decoration: none;
+}
+
+.sale-line-text a:hover {
+    font-family: 'Noto Sans KR', sans-serif; 
+    font-style: normal;
+    color: darkgray
+}
+
+.sale-line-text {
+    font-family: 'Noto Sans KR', sans-serif; 
+    font-size: 2vw;
+    font-weight: lighter;
+    padding-top: 2vw;
+    padding-left: 11%;
+    word-spacing: 20px;
+}
+
+hr {
+    width: 96%;
+}
+
+.sale-card-text {
+    padding-left: 1vw;
+    margin: 0 auto;
+}
+
+.sale-card-container {
+    width: 100%;height: 30vw; display: flex;justify-items: center;justify-content: space-evenly; margin-bottom: 5vw;
+}
+
+.sale-card-container-tumb{
+    margin:0 auto;
+    margin-bottom: 0.5vw;
+    width: 27vw;
+    height: 20vw;
+    background-color: gray;
+}
+
+.sale-card-container-box2 {
+    font-size: 25px;
+    border: 1px solid #dddddd;
+    width: 28vw;
+}
+
+.sale-card-container-box2>img {
+    padding: 0.5vw 0.8vw 0.5vw 0;
+    float: right;
+    right: 100%;
+}
