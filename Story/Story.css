@@ -38,3 +38,14 @@ p {font-family: 'Noto Sans KR', sans-serif;}
 .footer p{margin:0.5vw 0 0.7vw 3vw; font-style: italic;}
 .footer a{margin:0.5vw 0 0.7vw 3vw; color: black; text-decoration: none; font-family:'Noto Sans KR',sans-serif; font-style: italic;}
 .footer address{margin:0.5vw 0 0.7vw 3vw;}
+
+
+.Story-second-textClass {font-size: 3vw; color:black; position: absolute; top: -1%; left: 3%;}
+.Story-second-textClass-p {font-size: 3vw;}
+
+.Stroy-first-textclass{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    margin-left: 30% ;
+    font-size: 1.5vw;
+}

@@ -74,7 +74,7 @@ hr {width: 96%;}
     font-size: 2vw;
     font-weight: lighter;
     padding-top: 2vw;
-    padding-left: 11%;
+    padding-left: 8%;
     word-spacing: 20px;
 }
 
@@ -94,15 +94,15 @@ hr {
 .sale-card-container-tumb{
     margin:0 auto;
     margin-bottom: 0.5vw;
-    width: 34vw;
-    height: 20vw;
+    width: 38vw;
+    height: 25vw;
     background-color: gray;
 }
 
 .sale-card-container-box2 {
     font-size: 1.5vw;
     border: 1px solid #dddddd;
-    width: 35vw;
+    width: 38.8vw;
 }
 
 .sale-card-container-box2>img {
