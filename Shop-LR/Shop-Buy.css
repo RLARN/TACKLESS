@@ -39,7 +39,7 @@ p {font-family: 'Noto Sans KR', sans-serif;}
 
 /*----------Event-Area----------*/
 .event-area {width: 100%;display: flex;justify-content: center;}
-.event-area-card { justify-content: center;width: 75vw;height: auto; border: 1px transparent;margin-bottom: 3vw; margin-top: 5vw;}
+.event-area-card { justify-content: center;height: auto; border: 1px transparent;margin-bottom: 3vw; margin-top: 5vw;}
 .event-area-txt {font-size: 2.5vw;}
 .event-area-txt p{ width: 100%;margin-left: 1vw;margin-bottom: 0vw;display: flex;}
 .event-area-item {display: flex;padding: 1vw;}
