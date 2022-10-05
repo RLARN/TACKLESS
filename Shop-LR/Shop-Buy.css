@@ -44,11 +44,9 @@ p {font-family: 'Noto Sans KR', sans-serif;}
 .event-area-txt p{ width: 100%;margin-left: 1vw;margin-bottom: 0vw;display: flex;}
 .event-area-item {display: flex;padding: 1vw;}
 .event-area-item-tumb1 {width: 51vw;height: 35vw; background-color: gray;}
-
 .event-area-item-tumb3 {width: 35vw;height: 35vw;
     /* background-color: gray; */
 }
-
 .event-area-item-tumb4 {width: 35vw;height: 35vw;
     /* background-color: gray; */
 }
@@ -60,10 +58,14 @@ p {font-family: 'Noto Sans KR', sans-serif;}
 .event-area-item-tumb3>img{width: 51vw;height: 35vw;object-fit:cover}
 .event-area-item-tumb4 {width: 20vw;height: 20vw;background-color: gray;}
 .event-area-item-tumb4>img{width: 30vw;height: 30vw;object-fit: cover;}
-
 .event-area-item-text {
     font-size: 1.5vw;
 }
+
+/*---event-area-card2---*/
+.event-area-card2 {}
+.event-area-card2-item {display: flex;}
+.event-area-card2-item-left {width: 710;}
 
 /*---Card-Container---*/
 .card-container {width: 100%;height: 30vw; display: flex;justify-items: center;justify-content: space-evenly; margin-bottom: 5vw;}
