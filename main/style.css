@@ -32,7 +32,7 @@ p {font-family: 'Noto Sans KR', sans-serif;}
 .main-bnr-card-txt2 p{text-align: center;font-size: 2vw; margin: 0.8vw;}
 .main-bnr-card2 {justify-content: center;width: 100%;height: 55vw;background-color: gray;margin-bottom: 5vw; margin-top: 2vw;position: relative;}
 .main-bnr-card2>img{width:100%;height: 55vw;object-fit:cover}
-.main-bnr-card2-txt {font-size: 5vw; color: white;opacity: 0.6; position: absolute; top: 59vw; left: 20vw;}
+.main-bnr-card2-txt {font-size: 5vw; color: white;opacity: 0.6; position: absolute; top: 59vw; left: 23vw;}
 
 /*---Event-BNR---*/
 .event-bnr { display: flex;justify-content: center;width: 100%; height: 20vw;}
