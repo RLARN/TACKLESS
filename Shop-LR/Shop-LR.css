@@ -85,6 +85,8 @@ hr {
 .sale-card-text {
     padding-left: 1vw;
     margin: 0 auto;
+    color: black;
+    text-decoration: none;
 }
 
 .sale-card-container {
