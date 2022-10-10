@@ -29,8 +29,10 @@ p {font-family: 'Noto Sans KR', sans-serif;}
 .main-bnr-card-txt-kimchi {font-size: 2vw; position: absolute; top: 55%; left: 0.5%;}s
 .main-bnr-card-txt-p {font-size: 4vw;}
 .main-bnr-card-buy {position: absolute; top: 82%; left: 75%;}
-.main-bnr-card-buy-btn {padding: 1vw 5vw 1vw 5vw; background-color:rgba(0, 0, 0, 0.3);}
-.main-bnr-card-buy-btn-txt {font-size: 2vw; color: white;opacity: 0.8;margin: 0;}
+.main-bnr-card-buy-btn {padding: 1vw 5vw 1vw 5vw; background-color:rgba(0, 0, 0, 0.3);transition: all .5s;}
+.main-bnr-card-buy:hover .main-bnr-card-buy-btn{background-color:rgba(0, 0, 0, 1.0);}
+.main-bnr-card-buy:hover .main-bnr-card-buy-btn-txt{color: white;opacity: 1;margin: 0;}
+.main-bnr-card-buy-btn-txt {font-size: 2vw; color: white;opacity: 0.8;margin: 0;transition: all .5s;}
 /*---Event-BNR---*/
 .event-bnr { display: flex;justify-content: center;width: 100%; height: 20vw;}
 .enent-bnr-tumb {width: 80vw;height: 20vw;background-color: gray;}
