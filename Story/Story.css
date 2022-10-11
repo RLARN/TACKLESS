@@ -14,6 +14,9 @@ nav ul li {display: inline-block;}
 .dropdown-content a:hover {background-color: #f1f1f1;}
 /* ---------------------------header end----------------------------------- */
 /*---body start---*/
+h1 {
+    font-size: 1.8vw;
+}
 
 /*---Main---*/
 body {margin: 0;padding: 0; width: 100vw;overflow-x: hidden;font-family:'Noto Sans KR',sans-serif;}
@@ -22,10 +25,11 @@ p {font-family: 'Noto Sans KR', sans-serif;}
 .content main {display: flex; justify-content: center;transition: all .3s;}
 
 /*---Main-BNR---*/
-.main-bnr {width: 100%;height: 20vw;background-color: gray;position: relative;margin-left: 7.5vw;margin-top: 5vw ;}
-.main-bnr-card>img{width:85%;height: 20vw;margin-left: 7.5vw; object-fit:cover}/**/
+.main-bnr {width: 85%;height: 20vw;background-color: gray;position: relative;margin-left: 6.8vw;margin-top: 5vw ;}
+.main-bnr-card>img{width:10%;height: 2vw;margin-left: 38.5vw; margin-top: 1vw; object-fit:cover;}/**/
 .main-bnr-card-txt {font-size: 5vw; color: white;opacity: 0.8; position: absolute; top: -1%; left: 3%;}
-.main-bnr-card-txt-p {font-size: 5vw;}
+.main-bnr-card-txt-main {text-align: center; font-size: 2.5vw; margin-left: 4.5vw}
+.main-bnr-card-txt-p {font-size: 2.5vw;}
 .main-bnr-card-txt-kimchi {font-size: 1vw; position: absolute; top: 62%; left: 2%;}
 .main-bnr-card-txt2 p{text-align: center;font-size: 2vw; margin: 0.8vw;}
 .main-bnr-card2 {justify-content: center;width: 100%;height: 55vw;background-color: gray;margin-bottom: 5vw; margin-top: 2vw;position: relative;}
@@ -33,9 +37,9 @@ p {font-family: 'Noto Sans KR', sans-serif;}
 .main-bnr-card2-txt {font-size: 5vw; color: white;opacity: 0.6; position: absolute; top: 59vw; left: 25vw;}
 
 /*---Main-BNR3---*/
-.main-bnr3-card {margin-top: 5vw;display: flex;justify-content: center;width: 100%;height: 30vw;background-color: gray;}
-.main-bnr3-card>img{width: 100%;height: 30vw;object-fit: cover;}
-.main-bnr-card3-txt {font-size: 5vw; color: white;opacity: 0.9; position: absolute; top: 6vw; left: 31vw;}
+.main-bnr3-card {margin-top: 5vw;display: flex;justify-content: center;width: 85%;height: 30vw; margin-left: 7.5vw;background-color: gray;}
+.main-bnr3-card>img{width: 85%;height: 30vw;object-fit: cover;}
+.main-bnr-card3-txt {font-size: 2vw; color: white;opacity: 0.9; position: absolute; top: 6vw; left: 15vw;}
 
 /*---footer---*/
 .footer{width: 100%; height: auto; background-color: white; padding:  3vw 0 3vw 0; border-top: 6px solid black; margin-top: 10vw;}
