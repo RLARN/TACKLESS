@@ -16,6 +16,8 @@ nav ul li {display: inline-block;}
 /*---body start---*/
 h1 {
     font-size: 1.8vw;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: normal;
 }
 
 /*---Main---*/
@@ -25,10 +27,10 @@ p {font-family: 'Noto Sans KR', sans-serif;}
 .content main {display: flex; justify-content: center;transition: all .3s;}
 
 /*---Main-BNR---*/
-.main-bnr {width: 100%;height: 28vw;background-color: gray;position: relative;margin-top: 5vw ;}
-.main-bnr-card>img{height: 10vw;margin-left: 37.5vw; margin-top: 1vw; object-fit:cover;}/**/
+.main-bnr {width: 100%;height: 41vw;background-color: gray;position: relative;margin-top: 5vw ;}
+.main-bnr-card>img{height: 14vw;margin-left: 33.5vw; margin-top: 8vw; object-fit:cover;}/**/
 .main-bnr-card-txt {font-size: 5vw; color: #000;opacity: 0.8; position: absolute; top: -1%; left: 10.5%;}
-.main-bnr-card-txt-main {text-align: center; font-size: 2.5vw; margin-top: 14vw;}
+.main-bnr-card-txt-main {text-align: center; font-size: 2.5vw; margin-top: 25vw;}
 .main-bnr-card-txt-p {font-size: 2.5vw;}
 .main-bnr-card-txt-kimchi {font-size: 1vw; position: absolute; top: 62%; left: 2%;}
 .main-bnr-card-txt2 p{text-align: center;font-size: 2vw; margin: 0.8vw;}
@@ -37,9 +39,9 @@ p {font-family: 'Noto Sans KR', sans-serif;}
 .main-bnr-card2-txt {font-size: 5vw; color: white;opacity: 0.6; position: absolute; top: 59vw; left: 25vw;}
 
 /*---Main-BNR3---*/
-.main-bnr3-card {margin-top: 5vw;display: flex;justify-content: center;width: 100%;height: 30vw;background-color: gray;}
+.main-bnr3-card {margin-top: 5vw;display: flex;justify-content: center;width: 100%;height: 42vw;background-color: gray;}
 .main-bnr3-card>img{width: 100%;height: 30vw;object-fit: cover;}
-.main-bnr-card3-txt {font-size: 2vw; color: white;opacity: 0.9; position: absolute; top: 2vw; left: 5vw;}
+.main-bnr-card3-txt {font-size: 2.5vw; color: white;opacity: 0.9; position: absolute; top: 6vw; left: 5vw;}
 
 /*---footer---*/
 .footer{width: 100%; height: auto; background-color: white; padding:  3vw 0 3vw 0; border-top: 6px solid black; margin-top: 10vw;}
