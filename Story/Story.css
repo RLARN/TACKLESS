@@ -41,7 +41,7 @@ p {font-family: 'Noto Sans KR', sans-serif;}
 /*---Main-BNR3---*/
 .main-bnr3-card {margin-top: 5vw;display: flex;justify-content: center;width: 100%;height: 42vw;background-color: gray;}
 .main-bnr3-card>img{width: 100%;height: 30vw;object-fit: cover;}
-.main-bnr-card3-txt {font-size: 2.5vw; color: white;opacity: 0.9; position: absolute; top: 6vw; left: 5vw;}
+.main-bnr-card3-txt {font-size: 2.5vw; color: white;opacity: 0.9; position: absolute; top: 6vw; left: 10vw;}
 
 /*---footer---*/
 .footer{width: 100%; height: auto; background-color: white; padding:  3vw 0 3vw 0; border-top: 6px solid black; margin-top: 10vw;}
