@@ -54,6 +54,11 @@ hr {width: 96%;}
 .sale-card-container-box2 { font-size: 25px; border: 1px solid #dddddd; width: 34vw;}
 .sale-card-container-box2>img { padding: 0.5vw 0.8vw 0.5vw 0; float: right; right: 100%;} */
 
+.manchi {
+    color: black;
+    text-decoration: none;
+}
+
 .sale-line {
     padding-bottom: 1vw;
 }
