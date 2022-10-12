@@ -23,7 +23,7 @@ p {font-family: 'Noto Sans KR', sans-serif;}
 
 /*---Main-BNR---*/
 .main-bnr {width: 85%;height: 20vw;background-color: gray;position: relative;margin-left: 7.5vw;margin-top: 5vw ;}
-.main-bnr-card>img{width:85%;height: 20vw;margin-left: 7.5vw; object-fit:cover}/**/
+.main-bnr-card>img{width:100%;height: 20vw; object-fit:cover}/**/
 .main-bnr-card-txt {font-size: 5vw; color: white;opacity: 0.8; position: absolute; top: -1%; left: 3%;}
 .main-bnr-card-txt-p {font-size: 5vw;}
 .main-bnr-card-txt-kimchi {font-size: 1vw; position: absolute; top: 62%; left: 2%;}
