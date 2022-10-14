@@ -41,6 +41,10 @@
     * 포스터 맹글기 a1, b4
 ---
 
+### [10월 14일]
+* 파일구조 완성
+* story aos 수정
+---
 
 ## Information
 <footer>
