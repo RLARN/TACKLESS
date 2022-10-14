@@ -40,7 +40,7 @@ p {font-family: 'Noto Sans KR', sans-serif;}
 .main-bnr-card2-txt {font-size: 5vw; color: white;opacity: 0.6; position: absolute; top: 59vw; left: 25vw;}
 
 /*---Main-BNR3---*/
-.main-bnr3-card {margin-top: 5vw;display: flex;justify-content: center;width: 100%;height: 40vw;background-color: gray;position: relative;}
+.main-bnr3-card {margin-top: 4vw;display: flex;justify-content: center;width: 100%;height: 40vw;background-color: gray;position: relative;}
 .main-bnr3-card>img{width: 100%;height: 40vw;object-fit: cover;filter: brightness(65%)}
 .main-bnr-card3-txt{position: absolute; top: 9.3vw; left: 10vw;color: white; margin: 0; opacity: 0.8;}
 .main-bnr-card3-txt-head{font-size: 3.5vw; margin: 0;}
@@ -61,7 +61,7 @@ p {font-family: 'Noto Sans KR', sans-serif;}
 
 .Stroy-first-textclass{
     margin-top: 5vw;
-    margin-bottom: 5vw;
+    margin-bottom: 6vw;
     margin-left: 25% ;
     font-size: 1.5vw;
 }

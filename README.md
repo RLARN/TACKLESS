@@ -44,6 +44,8 @@
 ### [10월 14일]
 * 파일구조 완성
 * story aos 수정
+* SHOP AOS 수정
+    * 301 페이지만 수정됨
 ---
 
 ## Information

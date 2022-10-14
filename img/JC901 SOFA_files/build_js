@@ -1,0 +1,48 @@
+/**
+ * Returns app server details.
+ * @type {{location: (function(): {url: string, protocol: string | RTCIceProtocol, host: (string|string|Element|*), hostname: string, port: (string|number|string|MessagePort|*)})}}
+ */
+var oPhotoSlideAppServer = {
+    location : function() {
+        var sUrl = 'https://photoslidev2.wehost24.com';
+        var oParser = document.createElement('a');
+        oParser.href = sUrl;
+        var oSearchObject = {};
+        var aQueries = [];
+        var aSplit = [];
+        aQueries = oParser.search.replace(/^\?/, '').split('&');
+        aQueries.forEach(function(oElement, iIndex) {
+            aSplit = aQueries[iIndex].split('=');
+            oSearchObject[aSplit[0]] = aSplit[1];
+        });
+        return {
+            url      : sUrl,
+            protocol : oParser.protocol,
+            host     : oParser.host,
+            hostname : oParser.hostname,
+            port     : oParser.port,
+        };
+    }
+};
+
+/**
+ * Script that manages PhotoSlide V2 resources.
+ */
+$(document).ready(function() {
+    /**
+     * Loads script synchronously.
+     * @param sSourceUrl
+     */
+    function loadScript(sSourceUrl) {
+        var oScriptElement = document.createElement('script');
+        oScriptElement.src = sSourceUrl;
+        oScriptElement.type = 'text/javascript';
+        oScriptElement.async = false;
+        document.getElementsByTagName('head')[0].appendChild(oScriptElement);
+    }
+
+    loadScript(oPhotoSlideAppServer.location().url + '/js/utilities/encrypted_messenger.js');
+    loadScript(oPhotoSlideAppServer.location().url + '/js/utilities/function_executor.js');
+    loadScript(oPhotoSlideAppServer.location().url + '/js/plugins/jquery.selectorpath.js');
+    loadScript(oPhotoSlideAppServer.location().url + '/js/photoslidev2.min.js');
+});
