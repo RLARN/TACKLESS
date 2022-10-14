@@ -37,7 +37,7 @@ p {font-family: 'Noto Sans KR', sans-serif;}
 /*---Event-BNR---*/
 .event-bnr { display: flex;justify-content: center;width: 100%; height: 20vw;}
 .enent-bnr-tumb {width: 80vw;height: 20vw;background-color: gray;}
-.enent-bnr-tumb>img{width: 80vw;height: 20vw;object-fit:cover}
+.enent-bnr-tumb>img{width: 80vw;height: 20vw;object-fit:cover;}
 .enent-bnr-tumb>video{width: 80vw;height: 20vw;object-fit:cover}
 
 /*----------Event-Area----------*/
