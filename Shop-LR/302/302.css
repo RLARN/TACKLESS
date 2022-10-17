@@ -18,6 +18,7 @@ nav ul li {display: inline-block;}
 /*---Main---*/
 body {margin: 0;padding: 0; width: 100vw;overflow-x: hidden;font-family:'Noto Sans KR',sans-serif;}
 p {font-family: 'Noto Sans KR', sans-serif;}
+a {text-decoration: none;}
 .firstcontent {font-family: 'Noto Sans KR', sans-serif;}
 .content main {display: flex; justify-content: center;transition: all .3s;}
 
@@ -209,3 +210,4 @@ hr {
     font-family: 'Noto Sans KR', sans-serif; 
     font-size: 2VW;
 }
+
