@@ -1,0 +1,35 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4186935, 2021-09-29T02:50:43-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: TTCommonsPro-Rg by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/regular/
+ * 
+ * Webfont: TTCommonsPro-Md by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/medium/
+ * 
+ * 
+ * Webfonts copyright: Copyright (c) 2018-2021 by TypeType. All rights reserved.
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3fe337");
+  
+@font-face {
+  font-family: "TTCommonsPro-Rg";
+  src: url('webFonts/TTCommonsProRg/font.woff2') format('woff2'), url('webFonts/TTCommonsProRg/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TTCommonsPro-Md";
+  src: url('webFonts/TTCommonsProMd/font.woff2') format('woff2'), url('webFonts/TTCommonsProMd/font.woff') format('woff');
+}
+
