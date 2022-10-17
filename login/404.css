@@ -8,16 +8,17 @@ nav ul li {display: inline-block;}
 .dropdown-menu>img {width: 7vw;position: relative;transition: all .3s; margin-top: 1vw;}
 .dropdown-menu a {/*padding: 40px 40px;*/ display: block;background-color: white;}
 .dropdown-content {width: 100%;height: 6vw;position: absolute;opacity: 0;visibility: hidden; background-color: white; transition: all .3s;}
-.dropdown-content a {color: #000;font-size: 1.3vw;padding: 1.5vw 1vw;text-decoration: none;display: inline-block;font-weight: 400;}
+.dropdown-content a {color: #000;font-size: 1.3vw;padding: 1.5vw 1vw;text-decoration: none;display: inline-block;font-weight: 400;transition: all .3s;}
 .dropdown:hover .dropdown-content {display: block;opacity: 1;visibility: visible;}
 .dropdown:hover .dropdown-menu>img {width: 14vw; transition: all .3s;}
-.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown-content a:hover {color: #b59046;}
 /* ---------------------------header end----------------------------------- */
 /*---body start---*/
 
 /*---Main---*/
 body {margin: 0;padding: 0; width: 100vw;overflow-x: hidden;font-family:'Noto Sans KR',sans-serif;}
 p {font-family: 'Noto Sans KR', sans-serif;}
+a{text-decoration: none;}
 .firstcontent {font-family: 'Noto Sans KR', sans-serif;}
 .content main {display: flex; justify-content: center;transition: all .3s;}
 
@@ -27,24 +28,11 @@ p {font-family: 'Noto Sans KR', sans-serif;}
 .main-bnr-card-txt {font-size: 5vw; color: black;opacity: 1.0;text-align : center; line-height : 5vw;}
 .main-bnr-card-txt>p{margin: 4vw 0 6vw 0;}
 
-.login{display: flex;justify-content: space-evenly;width: 100%;}
-.login-form{width: 20vw;height: 15vw;padding: 0 2vw;display: flex;flex-direction: column;}
-#login-form > input{width: 100%;height: 3.5vw;padding: 0 1vw;box-sizing: border-box;margin-bottom: 2vw;}
-#login-form > input::placeholder{color: #D2D2D2;}
-
-
-a>button{width: 100%;padding:0.7vw;color: white;font-size: 2vw;background-color: black;margin-top: 2vw; border: 3px solid black;transition: all 0.5s;}
+.err{display: flex;justify-content: space-evenly;width: 100%;margin-bottom: 2vw;}
+.err>p{font-size: 2vw; text-align: center;}
+a{display: flex;justify-content: space-evenly;}
+a>button{width: 60%;padding:0.8vw;color: white;font-size: 2vw;background-color: black;margin-top: 2vw; border: 3px solid black;transition: all 0.5s;}
 a>button:hover {color: #b59046;font-size: 2vw;background-color: black; border: 3px solid #b59046;cursor:pointer;}
-
-
-#login-form > input[type="checkbox"]{display: none;}
-#login-form > label{color: #999999;}
-#login-form input[type="checkbox"] + label{cursor: pointer;padding-left: 26px;background-image: url("checkbox.png");background-repeat: no-repeat;background-size: contain;}
-#login-form input[type="checkbox"]:checked + label{background-image: url("checkbox-active.png");background-repeat: no-repeat;background-size: contain;}
-
-
-
-
 
 /*---footer---*/
 .footer{width: 100%; height: auto; background-color: white; padding:  3vw 0 3vw 0; border-top: 6px solid black; margin-top: 10vw;}

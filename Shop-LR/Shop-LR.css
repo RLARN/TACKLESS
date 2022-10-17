@@ -8,10 +8,10 @@ nav ul li {display: inline-block;}
 .dropdown-menu>img {width: 7vw;position: relative;transition: all .3s; margin-top: 1vw;}
 .dropdown-menu a {/*padding: 40px 40px;*/ display: block;background-color: white;}
 .dropdown-content {width: 100%;height: 6vw;position: absolute;opacity: 0;visibility: hidden; background-color: white; transition: all .3s;}
-.dropdown-content a {color: #000;font-size: 1.3vw;padding: 1.5vw 1vw;text-decoration: none;display: inline-block;font-weight: 400;}
+.dropdown-content a {color: #000;font-size: 1.3vw;padding: 1.5vw 1vw;text-decoration: none;display: inline-block;font-weight: 400;transition: all .3s;}
 .dropdown:hover .dropdown-content {display: block;opacity: 1;visibility: visible;}
 .dropdown:hover .dropdown-menu>img {width: 14vw; transition: all .3s;}
-.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown-content a:hover {color: #b59046;}
 /* ---------------------------header end----------------------------------- */
 /*---body start---*/
 
@@ -60,14 +60,10 @@ hr {width: 96%;}
 
 .sale-line-text a {
     color: #000;
-    text-decoration: none;
+    text-decoration: none;transition: all 0.3s;
 }
 
-.sale-line-text a:hover {
-    font-family: 'Noto Sans KR', sans-serif; 
-    font-style: normal;
-    color: darkgray
-}
+.sale-line-text a:hover {font-family: 'Noto Sans KR', sans-serif; font-style: normal;color: #b59046;transition: all 0.3s;}
 
 .sale-line-text {
     font-family: 'Noto Sans KR', sans-serif; 
@@ -85,7 +81,9 @@ hr {
 .sale-card-text {
     padding-left: 1vw;
     margin: 0 auto;
+    transition: all 0.3s;
 }
+
 .sale-card-text2{
     padding-left: 0.9vw;
     margin: 0 auto;
@@ -96,18 +94,11 @@ hr {
     color: #b59046;
 }
 
-.sale-card-container {
-    width: 100%;height: 30vw; display: flex;justify-items: center;justify-content: space-evenly; margin-bottom: 7vw;
-}
-
+.sale-card-container {width: 100%;height: 30vw; display: flex;justify-items: center;justify-content: space-evenly; margin-bottom: 7vw;}
 .sale-card-container-tumb{margin:0 auto;margin-bottom: 0.5vw;width: 38vw;height: 25vw;background-color: gray;}
 .sale-card-container-tumb>img{width: 38vw; height: 25vw;object-fit:cover}
-
-.sale-card-container-box2 {
-    font-size: 1.5vw;
-    border: 1px solid #dddddd;
-    width: 38.8vw;
-}
+.sale-card-container-box2:hover .sale-card-text{color: #b59046;transition: all 0.3s; }
+.sale-card-container-box2 {font-size: 1.5vw;border: 1px solid #dddddd;width: 38.8vw;}
 
 .sale-card-container-box2>img {
     padding: 0.5vw 0.8vw 0.5vw 0;

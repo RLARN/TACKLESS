@@ -30,8 +30,8 @@ a {text-decoration: none;}
 .main-bnr-card-txt-kimchi {font-size: 2vw; position: absolute; top: 55%; left: 0.5%;}s
 .main-bnr-card-txt-p {font-size: 4vw;}
 .main-bnr-card-buy {position: absolute; top: 82%; left: 75%;}
-.main-bnr-card-buy-btn {width: 19vw;height: 5vw; background-color:rgba(0, 0, 0, 0.3);transition: all .5s;}
-.main-bnr-card-buy:hover .main-bnr-card-buy-btn{background-color:rgba(0, 0, 0, 1.0);transition: all .5s;cursor:pointer;height: 7vw;}
+.main-bnr-card-buy-btn {width: 19vw;height: 5vw; background-color:rgba(0, 0, 0, 0.3);transition: all .5s;border: 3px solid rgba(0, 0, 0, 0.0001);}
+.main-bnr-card-buy:hover .main-bnr-card-buy-btn{background-color:rgba(0, 0, 0, 1.0);border: 3px solid #b59046;transition: all .5s;cursor:pointer;height: 7vw;}
 .main-bnr-card-buy:hover .main-bnr-card-buy-btn-txt{opacity: 0.0; transition: all .7s;}
 .main-bnr-card-buy:hover .main-bnr-card-buy-btn-txt2{opacity: 0.8;transition: all .7s;}
 .main-bnr-card-buy-btn-txt {text-align : center; line-height : 5vw;font-size: 2vw; color: white;opacity: 0.8;transition: all .7s;margin: 0;}
