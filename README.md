@@ -9,7 +9,8 @@
 
 ### [9월 19일]
 * 사진넣는 코드 작성  
-* aos와 transition은 함께 사용하지 못한다.
+* aos와 transition은 함께 사용하지 못한다.  (매우 중요)
+    * transition 작동 안하는 이유를 3시간 동안 찾아 해맨 결과다.
 
 ***
 ### [9월 21일]  
@@ -23,7 +24,7 @@
 <br>
     아래는 참조 코드
     
-    ```html
+    ```css
     body {margin: 0;padding: 0; width: 100vw;overflow-x: hidden;}
     ```
 ***
