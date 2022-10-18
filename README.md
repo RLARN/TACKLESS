@@ -58,6 +58,16 @@
 
 ---
 
+### [10월 19일]
+* 커밋 충돌 해결방법
+    ```
+    - git config pull.ff only
+    - git pull --rebase
+    두 코드 따닥 터미널에 입력
+    ```
+    
+
+
 ## Information
 <footer>
         <div class="footer">

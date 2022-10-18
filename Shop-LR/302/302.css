@@ -23,9 +23,9 @@ a {text-decoration: none;}
 .content main {display: flex; justify-content: center;transition: all .3s;}
 
 /*---Main-BNR---*/
-.main-bnr {margin-top: 5vw ;width: 100%;height: 50vw;background-color: gray;position: relative;} */
+.main-bnr {margin-top: 5vw ;width: 100%;height: 45vw;background-color: gray;position: relative;} */
 .main-bnr-card{width: 100%;}
-.main-bnr-card>img{width:100%;height: 50vw;object-fit:cover}
+.main-bnr-card>img{width:100%;height: 45vw;object-fit:cover}
 .main-bnr-card-txt {font-size: 4vw; color: white;opacity: 0.8; position: absolute; top: 3%; left: 8%;}
 .main-bnr-card-txt-kimchi {font-size: 2vw; position: absolute; top: 55%; left: 0.5%;}s
 .main-bnr-card-txt-p {font-size: 4vw;}
