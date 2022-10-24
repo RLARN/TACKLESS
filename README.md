@@ -1,92 +1,41 @@
 # TACKLESS
-안녕하십니까 여러분. kimchimaster 입니다.   
- Tackless의 뜻은 못(나사) 없이 잘짜여진 심리스 디자인 가구 를 뜻하며, 이 사이트는 ci 디자인 기조를 바탕으로 제작 되었습니다.  
+안녕하십니까 여러분. PM 입니다.   
+ Tackless의 뜻은 못(나사) 없이 잘짜여진 심리스 디자인 가구 를 뜻하며, 이 사이트는 ci 디자인 기조를 바탕으로 제작 되었습니다.
  Tackless는 친환경 가구를 지향하며, 최근 트랜드인 원룸과 재택근무에 맞는 가구를 타깃으로 만들어진 가상의 회사 입니다.
-
+ * TACKLESS 사이트는 PC 기반으로 제작되었으며, 브라우저의 창 크기에 대응 합니다.
+ * 전체적인 레이아웃은 일반 판매 사이트가 아닌, 가구를 소개하는 느낌의 갤러리 형태로 구성 되었습니다.
+* AOS를 응용한 고급스럽고 생동감 넘치는 애니메이션 효과에 최적화되로독 디자인 되었습니다.
 ---
-### 문동환(201840116) 개발자노트
+## Project Structure
+* Main
+* Shop
+    * LR-Line
+    * BN-Line
+    * TM-Line
+* Story
 ---
-
-### [9월 19일]
-* 사진넣는 코드 작성  
-* aos와 transition은 함께 사용하지 못한다.  (매우 중요)
-    * transition 작동 안하는 이유를 3시간 동안 찾아 해맨 결과다.
-
-***
-### [9월 21일]  
-* aos 를 사용할때는  
-    ```overflow-x: hidden```  
-를 사용하여 화면을 넘치는것을 막아야 한다.
-
-    ***
-* ```data-aos-offset="5"```  
-를 사용하여 최하단에서 작동안되는 aos를 작동되게 만들었다.  
-<br>
-    아래는 참조 코드
-    
-    ```css
-    body {margin: 0;padding: 0; width: 100vw;overflow-x: hidden;}
-    ```
-***
-
-### [9월 28일]
-* 샵페이들 기본 골조 완성(원강희)  
-* 메인페이지에 샵 페이지 카드 삽입   
-    ```card-container```  
-    ```card-container2```
-* story 페이지 디자인 완성...
-
+## Technology
+*   HTML5
+*   CSS
+*   AOS
 ---
-### [10월 12일]
-* 오늘 해야할일
-    * 스토리 비율 완성
-    * 샵페이지 문구 수정
-    * 스토리 비율 이상한거 수정.
-    * 포스터 맹글기 a1, b4
+## IDE
+* VisualStudioCode
+---
+## Collaboration Tools
+* GitHub
 ---
 
-### [10월 14일]
-* 파일구조 완성
-* story aos 수정
-* SHOP AOS 수정
-    * 301 페이지만 수정됨
----
 
-### [10월 18일]
-* 전반적 디테일수정
-    * 호버 포인트 색상 추가(골드)
-    * buy 버튼 호버 기능 추가
-    * 할인 품목 레이아웃 작성
-    * 기타 링크 연결
-* 로그인, 404 페이지 추가
-
----
-
-### [10월 19일]
-* 커밋 충돌 해결방법
-    ```
-    - git config pull.ff only
-    - git pull --rebase
-    두 코드 따닥 터미널에 입력
-    ```
-
----
-
-### [10월 24일]
-* poster 완성
-* PPT 제작
-    
-
----
-
-## Information
+## /
 <footer>
         <div class="footer">
             <img src="./img/logo.png" alt="logo" width="auto"  style="width:20vw">
             <div>
-                <address>Copyright © 2022 Tackless.co.,Ltd.All rights reserved<br></address>  
-                <address>Contact Tackless for more information - KimchiMaster: msjdoc0645@naver.com <br></address>
-                <address>Producers : 문동환, 원강희 </address>
+            <address>Our Project benches KAAREKLINT</address>
+            <address>Image / Video Resorce: KAAREKLINT, EMONS</address> 
+                <address>Contact Tackless for more information - PM: msjdoc0645@naver.com <br></address>
+                <address>Creator : 문동환, 원강희 </address>
         </div>
     </footer>
 
