@@ -26,6 +26,8 @@
 ## Collaboration Tools
 * GitHub
 * Google Drive
+* Discord
+* Kakao Talk
 ---
 ---
 
