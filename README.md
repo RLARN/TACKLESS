@@ -27,7 +27,7 @@
 ---
 
 
-## /
+## Information
 <footer>
         <div class="footer">
             <img src="./img/logo.png" alt="logo" width="auto"  style="width:20vw">
