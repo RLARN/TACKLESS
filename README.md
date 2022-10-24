@@ -32,8 +32,8 @@
         <div class="footer">
             <img src="./img/logo.png" alt="logo" width="auto"  style="width:20vw">
             <div>
-            <address>Our Project benches KAAREKLINT</address>
-            <address>Image / Video Resorce: KAAREKLINT, EMONS</address> 
+            <address>Our Project benches KAAREKLINT<br></address>
+            <address>Image / Video Resorce: KAAREKLINT, EMONS<br></address> 
                 <address>Contact Tackless for more information - PM: msjdoc0645@naver.com <br></address>
                 <address>Creator : 문동환, 원강희 </address>
         </div>
