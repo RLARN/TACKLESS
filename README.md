@@ -45,6 +45,6 @@
     </footer>
 
 * 문동환 :  https://github.com/RLARN/Tackless/blob/main/Donghwan.md 
-* 원강희: https://github.com/RLARN/Tackless/blob/main/kangHee.md 
+* 원강희 : https://github.com/RLARN/Tackless/blob/main/kangHee.md 
 
 
