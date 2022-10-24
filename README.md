@@ -40,8 +40,11 @@
             <address>Our Project benches KAAREKLINT : https://kaareklint.co.kr<br></address>
             <address>Image / Video Resorce: KAAREKLINT, EMONS<br></address> <address>This project is made for non-profit purposes.<br></address>
                 <address>Contact Tackless for more information - PM: msjdoc0645@naver.com <br></address>
-                <address>Creator : 문동환, 원강희 </address>
-        </div>
+                <address>Creator : </address>
+                        </div>
     </footer>
 
-***
+* 문동환 :  https://github.com/RLARN/Tackless/blob/main/Donghwan.md 
+* 원강희: https://github.com/RLARN/Tackless/blob/main/kangHee.md 
+
+
