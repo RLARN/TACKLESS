@@ -20,7 +20,7 @@
 *   AOS
 ---
 ## IDE
-* VisualStudioCode
+* VisualStudioCode (LiveServer)
 ---
 ## Collaboration Tools
 * GitHub
