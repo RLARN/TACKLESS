@@ -153,6 +153,12 @@ hr {
     background-color: gray;
 }
 
+.sale-card-container-tumb>img{
+    width: 28vw;
+    height: 17.5vw;
+    object-fit:cover
+}
+
 .sale-card-container-box2 {
     font-size: 1.2vw;
     border: 1px solid #dddddd;
@@ -165,3 +171,11 @@ hr {
     right: 100%;
     width: 3.5vw;
 }
+
+.sale-card-container-box2:hover .sale-card-text{color: #b59046;transition: all 0.3s; }
+
+.manchi {
+    color: black;
+    text-decoration: none;
+}
+

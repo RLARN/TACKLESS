@@ -8,31 +8,34 @@ nav ul li {display: inline-block;}
 .dropdown-menu>img {width: 7vw;position: relative;transition: all .3s; margin-top: 1vw;}
 .dropdown-menu a {/*padding: 40px 40px;*/ display: block;background-color: white;}
 .dropdown-content {width: 100%;height: 6vw;position: absolute;opacity: 0;visibility: hidden; background-color: white; transition: all .3s;}
-.dropdown-content a {color: #000;font-size: 1.3vw;padding: 1.5vw 1vw;text-decoration: none;display: inline-block;font-weight: 400;}
+.dropdown-content a {color: #000;font-size: 1.3vw;padding: 1.5vw 1vw;text-decoration: none;display: inline-block;font-weight: 400;transition: all .3s;}
 .dropdown:hover .dropdown-content {display: block;opacity: 1;visibility: visible;}
 .dropdown:hover .dropdown-menu>img {width: 14vw; transition: all .3s;}
-.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown-content a:hover {color: #b59046;}
 /* ---------------------------header end----------------------------------- */
 /*---body start---*/
 
 /*---Main---*/
 body {margin: 0;padding: 0; width: 100vw;overflow-x: hidden;font-family:'Noto Sans KR',sans-serif;}
 p {font-family: 'Noto Sans KR', sans-serif;}
+a {text-decoration: none;}
 .firstcontent {font-family: 'Noto Sans KR', sans-serif;}
 .content main {display: flex; justify-content: center;transition: all .3s;}
 
 /*---Main-BNR---*/
-.main-bnr {margin-top: 5vw ;width: 100%;height: 50vw;background-color: gray;position: relative;} */
+.main-bnr {margin-top: 5vw ;width: 100%;height: 45vw;background-color: gray;position: relative;} */
 .main-bnr-card{width: 100%;}
-.main-bnr-card>img{width:100%;height: 50vw;object-fit:cover}
+.main-bnr-card>img{width:100%;height: 45vw;object-fit:cover}
 .main-bnr-card-txt {font-size: 4vw; color: white;opacity: 0.8; position: absolute; top: 3%; left: 8%;}
 .main-bnr-card-txt-kimchi {font-size: 2vw; position: absolute; top: 55%; left: 0.5%;}s
 .main-bnr-card-txt-p {font-size: 4vw;}
 .main-bnr-card-buy {position: absolute; top: 82%; left: 75%;}
-.main-bnr-card-buy-btn {padding: 1vw 5vw 1vw 5vw; background-color:rgba(0, 0, 0, 0.3);transition: all .5s;}
-.main-bnr-card-buy:hover .main-bnr-card-buy-btn{background-color:rgba(0, 0, 0, 1.0);}
-.main-bnr-card-buy:hover .main-bnr-card-buy-btn-txt{ color: white;opacity: 1;margin: 0;}
-.main-bnr-card-buy-btn-txt {font-size: 2vw; color: white;opacity: 0.8;margin: 0;}
+.main-bnr-card-buy-btn {width: 19vw;height: 5vw; background-color:rgba(0, 0, 0, 0.3);transition: all .5s;border: 3px solid rgba(0, 0, 0, 0.0001);}
+.main-bnr-card-buy:hover .main-bnr-card-buy-btn{background-color:rgba(0, 0, 0, 1.0);border: 3px solid #b59046;transition: all .5s;cursor:pointer;}
+.main-bnr-card-buy:hover .main-bnr-card-buy-btn-txt{opacity: 0.0; transition: all .7s;}
+.main-bnr-card-buy:hover .main-bnr-card-buy-btn-txt2{opacity: 0.8;transition: all .7s;}
+.main-bnr-card-buy-btn-txt {text-align : center; line-height : 5vw;font-size: 2vw; color: white;opacity: 0.8;transition: all .7s;margin: 0;}
+.main-bnr-card-buy-btn-txt2 {text-align : center;font-size: 2vw; color: #b59046;opacity: 0.0;transition: all .7s;margin: 0;position: relative;top: -83%;}
 /*---Event-BNR---*/
 .event-bnr { display: flex;justify-content: center;width: 100%; height: 20vw;}
 .enent-bnr-tumb {width: 80vw;height: 20vw;background-color: gray;}
@@ -75,8 +78,10 @@ p {font-family: 'Noto Sans KR', sans-serif;}
 
 .event-area-card2-item-left-txt {font-size: 2vw;}
 .event-area-card2-item-left-thumb {width: 35vw; height: 32vw;background-color: #dddddd;}
+.event-area-card2-item-left-thumb>img{width: 100%;object-fit: cover; }
 .event-area-card2-item-right-txt {font-size: 2vw;}
 .event-area-card2-item-right-thumb {width: 35vw; height: 32vw;background-color: #dddddd;}
+.event-area-card2-item-right-thumb>img{width: 100%; height: 100%;object-fit: cover; }
 
 /*---Card-Container---*/
 .card-container {width: 100%;height: 30vw; display: flex;justify-items: center;justify-content: space-evenly; margin-bottom: 5vw;}
@@ -183,6 +188,12 @@ hr {
     background-color: gray;
 }
 
+.sale-card-container-tumb>img{
+    width: 100%;
+    height: 17.5vw;
+    object-fit: cover;
+}
+
 .sale-card-container-tumb2{
     margin:0 auto;
     width: 20vw;
@@ -207,3 +218,4 @@ hr {
     font-family: 'Noto Sans KR', sans-serif; 
     font-size: 2VW;
 }
+
