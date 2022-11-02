@@ -78,7 +78,9 @@ a {text-decoration: none;}
 
 .event-area-card2-item-left-txt {font-size: 2vw;}
 .event-area-card2-item-left-thumb {width: 35vw; height: 32vw;background-color: #dddddd;}
-.event-area-card2-item-left-thumb>img{width: 100%;object-fit: cover; }
+.event-area-card2-item-left-thumb>img{width: 100%;height: 100%;;object-fit: cover;background-position: center;
+background-repeat: no-repeat;
+background-size: cover;}
 .event-area-card2-item-right-txt {font-size: 2vw;}
 .event-area-card2-item-right-thumb {width: 35vw; height: 32vw;background-color: #dddddd;}
 .event-area-card2-item-right-thumb>img{width: 100%; height: 100%;object-fit: cover; }
