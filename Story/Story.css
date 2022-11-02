@@ -29,8 +29,8 @@ p {font-family: 'Noto Sans KR', sans-serif;}
 /*---Main-BNR---*/
 .main-bnr {width: 100%;height: 50vw;background-color: gray;position: relative;}
 .main-bnr>img{width:100%; height: 50vw;object-fit:cover; filter: brightness(70%)}
-.main-bnr-card>img{height: 14vw;object-fit:cover; position: absolute; top: 27%; left: 32%; }/**/
-.main-bnr-card-txt {font-size: 5vw; color: white;opacity: 1; position: absolute; top: 10%; left: 13%;}
+.main-bnr-card>img{height: 14vw;object-fit:cover; position: absolute; top: 27%; left: 33%; }/**/
+.main-bnr-card-txt {font-size: 5vw; color: white;opacity: 1; position: absolute; top: 10%; left: 14%;}
 .main-bnr-card-txt-main {text-align: center; font-size: 2.5vw; margin-top: 25vw;}
 .main-bnr-card-txt-p {font-size: 2.5vw;}
 .main-bnr-card-txt-kimchi {font-size: 1vw; position: absolute; top: 62%; left: 2%;}
