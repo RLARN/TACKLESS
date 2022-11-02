@@ -42,7 +42,7 @@ a {text-decoration: none;}
 .enent-bnr-tumb>img{width: 80vw;height: 20vw;object-fit:cover}
 
 /*----------Event-Area----------*/
-.event-area {width: 100%;display: flex;justify-content: center;}
+.event-area {width: 100%;display: flex;justify-content: center;margin-bottom: 7vw;}
 .event-area-card { justify-content: center;height: auto; border: 1px transparent;margin-bottom: 3vw; margin-top: 5vw;}
 .event-area-txt {font-size: 2.5vw;}
 .event-area-txt p{ width: 100%;margin-left: 1vw;margin-bottom: 0vw;display: flex;}
