@@ -11,7 +11,7 @@ nav ul li {display: inline-block;}
 .dropdown-content a {color: #000;font-size: 1.3vw;padding: 1.5vw 1vw;text-decoration: none;display: inline-block;font-weight: 400;transition: all .3s;}
 .dropdown:hover .dropdown-content {display: block;opacity: 1;visibility: visible;}
 .dropdown:hover .dropdown-menu>img {width: 14vw; transition: all .3s;}
-.dropdown-content a:hover {color: #b59046;}
+.dropdown-content a:hover {color: #b59046;transition: all .3s;}
 /* ---------------------------header end----------------------------------- */
 /*---body start---*/
 
@@ -139,9 +139,11 @@ hr {
     font-family: 'Noto Sans KR', sans-serif; 
     padding-left: 1vw;
     margin: 0 auto;
+    transition: all .3s;
 }
 
 .sale-card-text2{
+    transition: all .3s;
     padding-left: 0.9vw;
     margin: 0 auto;
     font-size: 2.5vw;
